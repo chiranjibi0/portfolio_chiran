@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top" >
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+      <a href="#work" id="home" class="w3-bar-item w3-button w3-wide w3-text-red w3-bold w3-large">C-Run</a>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small">
+        <!-- <a href="#home" class="w3-bar-item w3-button">Home</a> -->
+        <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ABOUT</a>
+        <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Hobbies</a>
+        <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      </div>
+
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+        onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large"
+    style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16"> Click to
+      Close</i></a>
+    <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">HOBBIES</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  </nav>
+
+
+
+  <!-- Code form my portfolio websites  -->
+
+  <section class="background" id="work">
+    <div class="text">
+      <h1 id="headingone"><span style="color:rgb(206, 20, 20)"> Chiranjibi</span> Pun Magar</h1>
+      <h3 id="headingthree">I AM A <span style="color:rgb(205, 29, 29) "><span class="disp" id="display"> </span> </h3>
+      <p id="para">I have been studying BIM(Bachelor in Information Technology) <br> at AMC(Ambikeshwori Campus) since
+        from 2079. </p>
+    </div>
+    <div class="button">
+      <a href="#about">..About Me..</a>
+    </div>
+
+    <div class="quotes">
+      <p>"Lazy People do there work Lazily"</p>
+      <br>
+      <p style="color: red;">- C-run</p>
+    </div>
+
+
+  </section>
+
+  <!-- About Section -->
+  <div class="w3-container" style="padding:128px 16px" id="about">
+    <h3 class="w3-center">ABOUT ME</h3>
+    <p class="w3-center w3-large">This is all about me</p>
+    <div class="w3-row-padding w3-center" style="margin-top:64px">
+      <div class="w3-quarter">
+        <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+        <p class="w3-large">Web-Developer</p>
+        <p>I love both frontend and backend technology so i am a full stack developer and a web developer too.</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Passion</p>
+        <p>I love music so i play guitar and become a guitarist.</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Design</p>
+        <p>My aim is to design a good project used all over the world.</p>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Technology</p>
+        <p>I love nowadays technology specially AI and ML.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Team Section -->
+  <div class="w3-container " style="padding:128px 16px" id="team">
+    <h3 class="w3-center">My Hobbies.</h3>
+    <p class="w3-center w3-large">That i like Most.</p>
+    <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-card">
+          <img src="/coding.jpg" alt="code" style="width:100%">
+          <div class="w3-container">
+            <h3>Coding</h3>
+            <p class="w3-opacity">I love Coding.</p>
+            <p>It is in hobby list beacuuse of nothing reason.</p>
+            <p><button class="w3-button w3-light-grey w3-block"> <a href="#about">Read More</a></button></p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-card">
+          <img src="/adventure.jpg " alt="adv" height="180px" style="width:100%">
+          <div class="w3-container">
+            <h3>Adventures.</h3>
+            <p class="w3-opacity">I love to do Adventures.</p>
+            <p>I love to do adventure work like climbing,running and many more.</p>
+            <p><button class="w3-button w3-light-grey w3-block"><a href="#about">Read More</a> </button></p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-card">
+          <img src="/music.jpg" alt="Music" style="width:100%">
+          <div class="w3-container">
+            <h3>Music</h3>
+            <p class="w3-opacity">I love Music</p>
+            <p>I love to music beacuse i like playing guitar , drum and many more.</p>
+            <p><button class="w3-button w3-light-grey w3-block"><a href="#about">Read More</a></button></p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-card">
+          <img src="/nature.jpg" alt="Nat" style="width:100%">
+          <div class="w3-container">
+            <h3>Explore Nature.</h3>
+            <p class="w3-opacity">I love exploring Nature.</p>
+            <p>I love exploring nature because nature helps to make our ming relaxe and calm.</p>
+            <p><button class="w3-button w3-light-grey w3-block"><a href="#about">Read More</a></button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+  </div>
+
+
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+    <h3 class="w3-center">CONTACT ME</h3>
+    <p class="w3-center w3-large">Lets get in touch. Send Me a message</p>
+    <div style="margin-top:48px">
+
+      <form action="/login.php" method="post">
+        <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="name"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="email"></p>
+        <p><input class="w3-input w3-border" type="number" placeholder="Phone" required name="phone"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="message"></p>
+        <p>
+          <button class="w3-button w3-black" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-64">
+    <!-- <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Dang, Nepal</p> -->
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +977 9806212917</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: chiranjibi@mail.com</p>
+    <br>
+    <a href="#work" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Go top</a>
+  </footer>
+
+
+  <script src="/index.js"></script>
+  <script src="/display.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</body>
+
+</html> 
