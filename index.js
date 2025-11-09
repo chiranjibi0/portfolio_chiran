@@ -27,7 +27,7 @@ function w3_close() {
 
 
 
-const words = ["PROGRAMMER.", "Learner.", "Explorer.", "DEVELOPER."];
+const words = ["PROGRAMMER.", "LEARNER.", "Explorer.", "DEVELOPER."];
     let wordIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
